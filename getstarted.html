@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetStarted</title>
+    <link rel="stylesheet" href="getstarted.css">
+    <style>
+        body {
+            background-color: darkgray;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            cursor: pointer;
+            font-weight: normal;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.671);
+        }
+        a{
+            text-decoration: none;
+        }
+
+         
+    </style>
+</head>
+
+<body>
+
+    <button><a href="/index.html">Home</a></button>
+
+    <h1>Join Blogging</h1>
+    <h3>Create an account to personalize your <br>
+        homepage, follow your favorite authors and brand
+        publications, applaud stories you love, and <br>
+        more.</h3>
+
+    <div class="fb">
+        <button class="loginBtn loginBtn--facebook" onclick="fbSignup()">
+            Sign up with Facebook
+        </button>
+    </div>
+
+    <div class="google">
+        <button class="loginBtn loginBtn--google" onclick="googleSignup()">
+            Sign up with Google
+           </button>
+    </div>
+
+    <br>
+    <br>
+    <h3>Already have account?</h3>
+
+    <div class="google">
+        <button class="loginBtn loginBtn--facebook" onclick="fbSignup()">
+            Sign in
+        </button>
+    </div>
+
+    <div class="google">
+       <button class="loginBtn loginBtn--google" onclick="googleSignin()">
+        Sign in
+      </button>
+    </div>
+
+    <h3>To make Blogging work, we log user data and share it with <br>
+        service providers. Click “Sign up” above to accept Blogging’s <br>
+        Terms of Service & Privacy Policy.</h3>
+   
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color: darkgray;
+}
+.heading{
+    display: flex;
+    float: right;
+    margin: 15px 150px;
+    
+}
+button{
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 170px;
+    height: 40px;
+    margin: 8px 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-family: ui-serif;
+    font-weight: bold;
+    
+}
+button a:hover{
+    color: aqua;
+}
+input{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 160px;
+    height: 40px;
+    margin: 8px 50px;
+    border: white;
+    text-align: center;
+}
+h1{
+    padding: 0px 100px;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: system-ui
+}
+h5{
+    font-size: 59px;
+    margin: 2px 100px;
+}
+img{
+    margin: 10px 100px 10px 100px ;
+    width:70%;
+    height:500px;
+}
